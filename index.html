@@ -4,44 +4,109 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
     <title>Belu mieles</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <script src="./js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <div class="container">
+
         <header class="header">
-            <div class="logo">
-                <img src="./img/belu.mieles.logo.jpeg" alt="logo">
-            </div>
-            <div class="menu">
-                <ul>
-                    <li><a href="./index.html">Home</a></li>
-                    <li><a href="./imagenes.html">Imagenes</a></li>
-                    <li><a href="./videos.html">Videos</a></li>
-                    <li><a href="./contacto.html">Contacto</a></li>
-                    <li><a href="./ubicacion.html">Ubicacion</a></li>
-                </ul>
+            <nav class="navbar navbar-expand-lg navbar-light p-2" id="menu">
+                <div class="container-fluid">
+                    <a class="navbar-brand mb-1 h1" href="#">
+                        <img class="d-inline-block align-top" src="./img/belu.mieles.logo.jpeg" id="logo" >
+                    </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./imagenes.html">Imagenes</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./videos.html">Videos</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./contacto.html">Contacto</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./ubicacion.html">Ubicacion</a>
+                      </li>
+
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+
             </div>
         </header>
-        <main class="main">
-            <div class="nosotros">
-                <h1 class="titulo">Belu mieles</h1>
-                <p>Es una empresa familiar que fue creada a partir de crear un valor agregado a la propia producción de mieles.</p>
-                <p>Se caracteriza por ser distinta a la mayoría. Estas mieles van a tener diferenciaciones de calidades (para distintos mercados), contener especias, etc. </p>
-                <p>Se encuentra en pleno desarrollo y esperamos poder comercializar durante el transcurso de este año.</p>
+
+        <div class="conteiner">
+            
+            <main class="main">
+                <div class="row">
+                
+                    <div class="nosotros col-lg-6 col-md-6 col-xs-12">
+                        <h1 class="titulo">Belu mieles</h1>
+                        <p>Es una empresa familiar que fue creada a partir de crear un valor agregado a la propia producción de mieles.</p>
+                        <p>Se caracteriza por ser distinta a la mayoría. Estas mieles van a tener diferenciaciones de calidades (para distintos mercados), contener especias, etc. </p>
+                        <p>Se encuentra en pleno desarrollo y esperamos poder comercializar durante el transcurso de este año.</p>
+                    </div>
+                    <div class="imagen col-lg-6 col-md-6 col-xs-12" id="imagen">
+                        <img src="./img/img.index.jpg" class="imagen_index" alt="">
+                    </div>
+                </div>
+            </main>
+        </div>
+
+        <div class="conteiner">
+
+            
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./img/img.carrousel1.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/img.carrousel2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/img.carrousel3.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
-            <div class="imagen">
-                <img src="./img/img.index.jpg" class="imagen_index" alt="">
-            </div>
-        </main>
-        <footer class="footer">
-            <ul>
-                <li><a href="./paginas/contacto.html">Contacto</a></li>
-                <li><a href=""></a>Redes sociales</li>
-                <li></a>Copyright 2022</li>
+            
+        </div>
+            
+            
+        <footer>
+            <ul class="list-unstyled">
+                <li><i class="bi bi-person-rolodex"></i><a href="../paginas/contacto.html" target="_blank">Contacto</a></li>
+                <li><i class="bi bi-instagram"></i><a href=""></a>Redes sociales</li>
+                <li></a>Copyright 2022 ©</li>
             </ul>
         </footer>
-      </div>
+
     
 </body>
 </html>
