@@ -11,62 +11,65 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <div class="container__videos">
-        <header class="header">
-            <nav class="navbar navbar-expand-lg navbar-light p-2" id="menu">
-                <div class="container-fluid">
-                    <a class="navbar-brand mb-1 h1" href="#">
-                        <img class="d-inline-block align-top" src="./img/belu.mieles.logo.jpeg" id="logo" >
-                    </a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="./imagenes.html">Imagenes</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="./videos.html">Videos</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="./contacto.html">Contacto</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="./ubicacion.html">Ubicacion</a>
-                      </li>
 
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </nav>
+  <header class="header">
+    <nav class="navbar navbar-expand-lg navbar-light p-2" id="menu">
+      <div class="container-fluid">
+        <a class="navbar-brand mb-1 h1" href="./index.html">
+          <img class="d-inline-block align-top" src="./img/belu.mieles.logo.jpeg" id="logo" >
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./imagenes.html">Imagenes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./videos.html">Videos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contacto.html">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./ubicacion.html">Ubicacion</a>
+            </li>
 
-            </div>
-        </header>
-
-        <main class="main__videos">
-          <div class="videoUno">
-            <h1 class="titulo">Proceso de elaboracion</h1>
-            <p class="resumen">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit omnis explicabo officiis nam possimus in voluptatum, numquam cupiditate minima ullam odio hic eius ratione architecto, quasi fugiat beatae? Ab, aut?</p>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/Eoz2OiI1zmU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
-          <div class="videoDos">
-            <h1 class="titulo">Envasado de la miel</h1>
-            <p class="resumen">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure consectetur adipisci dicta tempora rerum quibusdam iste quasi ad, cupiditate culpa explicabo! Non corrupti, nemo optio molestiae delectus iusto praesentium numquam!</p>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/DmiyFGgEiyE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
-        </main>
-        <footer>
-            <ul class="list-unstyled">
-                <li><i class="bi bi-person-rolodex"></i><a href="../paginas/contacto.html" target="_blank">Contacto</a></li>
-                <li><i class="bi bi-instagram"></i><a href=""></a>Redes sociales</li>
-                <li></a>Copyright 2022 ©</li>
-            </ul>
-        </footer>
+          </ul>
+        </div>
       </div>
+    </nav>
+  </header>
+
+  <main class="main__videos">
+      <div class="conteiner">
+          <div class="row">                 
+              <div class="videoUno col-lg-6 col-md-12 col-sm-12">
+                  <h1 class="titulo">Proceso de elaboracion</h1>
+                  <p class="resumen">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit omnis explicabo officiis nam possimus in voluptatum, numquam cupiditate minima ullam odio hic eius ratione architecto, quasi fugiat beatae? Ab, aut?</p>
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/Eoz2OiI1zmU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              <div class="videoDos col-lg-6 col-md-12 col-sm-12">
+                  <h1 class="titulo">Envasado de la miel</h1>
+                  <p class="resumen">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure consectetur adipisci dicta tempora rerum quibusdam iste quasi ad, cupiditate culpa explicabo! Non corrupti, nemo optio molestiae delectus iusto praesentium numquam!</p>
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/DmiyFGgEiyE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+          </div>
+      </div>
+  </main>
+
+
+  <footer>
+    <ul class="list-unstyled">
+      <li><i class="bi bi-person-rolodex"></i><a href="../paginas/contacto.html" target="_blank">Contacto</a></li>
+      <li><i class="bi bi-instagram"></i><a href=""></a>Redes sociales</li>
+      <li></a>Copyright 2022 ©</li>
+    </ul>
+  </footer>
+  
 </body>
 </html>
