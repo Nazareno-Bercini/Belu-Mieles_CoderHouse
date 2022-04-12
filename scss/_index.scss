@@ -1,0 +1,59 @@
+.imagen {
+    width: 100%;
+    max-width: 500px;
+    margin-left: auto;
+    margin-top: 5rem;
+    margin-bottom: 4.375rem;
+  
+    img {
+      width: 20rem;
+      height: auto;
+      border: solid 7px $colorSecundario;
+      border-radius: 10px;
+      overflow: hidden;
+      transition: all ease-out 0.3s;
+  
+      &:hover {
+        transform: scale(1.05);
+      }
+    }
+  }
+
+.nosotros {
+    display: inline-block;
+    width: 20rem;
+    box-sizing: border-box;
+    margin-left: 10rem;
+    margin-top: 5rem;
+    margin-bottom: 4.375rem;
+    border-radius: .3rem;
+    text-align: left;
+    box-shadow: 3px 2px 2px 2px $colorSecundario;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+
+.titulo {
+    font-family: sans-serif;
+    color: $colorSecundario;
+    font-size: 2rem;
+    text-align: center;
+    padding: 2rem;
+    margin-top: 1rem;
+}
+
+p {
+    display: inline-block;
+    text-align: left;
+    padding: .625rem 1rem;
+    font-size: 1rem;
+    margin-top: .4rem;
+    margin-bottom: .3rem;
+    font-family: sans-serif;
+    color: $colorPrincipal;
+    
+}
+
+.carousel-inner { 
+    max-height: 39rem;
+}
