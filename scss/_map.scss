@@ -1,0 +1,37 @@
+$redes:(
+    instagram: #3f729b,
+    twitter: #55acee,
+    whatsapp: #4dc247,
+    facebook: #3b5998,
+);
+
+@each $red, $color in $redes {
+    .#{$red} {
+        color: $color;
+    }    
+}
+
+$estilos: (
+    tamano: 100%,
+    tamanomax: 31.25rem,
+    fondo: rgba(0, 0, 0, 0.3),
+    margen: auto,
+    margen-top: 1.875rem,
+    margen-bottom: 1.875rem,
+    relleno: 2.188rem 2.188rem,
+    relleno-bottom: 1.875rem,
+    borde: 5px,
+);
+
+.contacto {
+    width: map-get($estilos, tamano ) ;
+    max-width: map-get($estilos, tamanomax);
+    background: map-get($estilos, fondo );
+    margin: map-get($estilos, margen );
+    margin-top: map-get($estilos, margen-top );
+    margin-bottom: map-get($estilos, margen-bottom );
+    padding: map-get($estilos, relleno );
+    padding-bottom: map-get($estilos, relleno-bottom );
+    border-radius: map-get($estilos, borde );
+
+}

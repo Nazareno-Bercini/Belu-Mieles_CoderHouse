@@ -1,0 +1,10 @@
+@import "extend";
+
+.main__videos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+
+}

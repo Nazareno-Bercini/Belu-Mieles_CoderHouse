@@ -1,0 +1,15 @@
+@import "mixins";
+@import "boton";
+
+.foto img {
+    width: 100%;
+    border: solid 7px #5D3A00;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all ease-out 0.3s;
+  
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+
