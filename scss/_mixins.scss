@@ -10,3 +10,21 @@
 .foto {
     @include galeria;
 }
+
+@mixin videos {
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+    border: solid 7px #5D3A00;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+
+.videoUno {
+    @include videos;
+}
+
+.videoDos{
+    @include videos;
+}

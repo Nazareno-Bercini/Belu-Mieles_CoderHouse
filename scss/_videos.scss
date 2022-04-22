@@ -1,4 +1,4 @@
-@import "extend";
+@import "variables";
 
 .main__videos {
     display: flex;
@@ -8,3 +8,22 @@
     margin-bottom: 5rem;
 
 }
+
+@mixin videos {
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+    border: solid 7px $colorSecundario;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+
+.videoUno {
+    @include videos;
+}
+
+.videoDos{
+    @include videos;
+}
+

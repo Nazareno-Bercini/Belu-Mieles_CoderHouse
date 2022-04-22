@@ -1,15 +1,4 @@
-$redes:(
-    instagram: #3f729b,
-    twitter: #55acee,
-    whatsapp: #4dc247,
-    facebook: #3b5998,
-);
 
-@each $red, $color in $redes {
-    .#{$red} {
-        color: $color;
-    }    
-}
 
 $estilos: (
     tamano: 100%,
