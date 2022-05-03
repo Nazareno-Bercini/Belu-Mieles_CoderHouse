@@ -127,6 +127,59 @@ p {
 .carousel-inner {
   max-height: 39rem; }
 
+footer {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.3);
+  height: auto;
+  width: 100vw;
+  padding-top: 40px;
+  color: #D9CAB3; }
+
+.contenido {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center; }
+  .contenido h2 {
+    font-size: 1.7rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 3rem; }
+
+.redes {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 1rem 0;
+  padding-left: 0; }
+  .redes li {
+    margin: 0 10px; }
+  .redes a {
+    text-decoration: none;
+    padding: 5px;
+    color: #D9CAB3; }
+    .redes a i {
+      font-size: 1.1rem;
+      width: 20px;
+      transition: color .4s ease; }
+    .redes a:hover i {
+      color: #5D3A00; }
+
+.footer-menu ul {
+  display: flex; }
+  .footer-menu ul li {
+    padding-right: 10px;
+    display: block; }
+    .footer-menu ul li a {
+      color: #D9CAB3;
+      text-decoration: none; }
+      .footer-menu ul li a:hover {
+        color: #5D3A00; }
+
 .foto {
   width: 100%;
   max-width: 500px;
@@ -289,61 +342,9 @@ select {
 
 .lugar {
   margin-top: 30px;
+  padding-left: 75px;
   margin-bottom: 30px;
   margin-left: auto; }
-
-footer {
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(0, 0, 0, 0.3);
-  height: auto;
-  width: 100vw;
-  padding-top: 40px;
-  color: #D9CAB3; }
-
-.contenido {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  text-align: center; }
-  .contenido h2 {
-    font-size: 1.7rem;
-    font-weight: 500;
-    text-transform: capitalize;
-    line-height: 3rem; }
-
-.redes {
-  list-style: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 1rem 0 1rem 0;
-  padding-left: 0; }
-  .redes li {
-    margin: 0 10px; }
-  .redes a {
-    text-decoration: none;
-    padding: 5px;
-    color: #D9CAB3; }
-    .redes a i {
-      font-size: 1.1rem;
-      width: 20px;
-      transition: color .4s ease; }
-    .redes a:hover i {
-      color: #5D3A00; }
-
-.footer-menu ul {
-  display: flex; }
-  .footer-menu ul li {
-    padding-right: 10px;
-    display: block; }
-    .footer-menu ul li a {
-      color: #D9CAB3;
-      text-decoration: none; }
-      .footer-menu ul li a:hover {
-        color: #5D3A00; }
 
 @media screen and (max-width: 756px) {
   .nosotros {
