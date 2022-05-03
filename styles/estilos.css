@@ -366,7 +366,9 @@ select {
   .footer {
     display: flex;
     justify-content: space-evenly;
-    align-items: center; } }
+    align-items: center; }
+  .lugar {
+    padding-left: 0px; } }
 
 @media screen and (max-width: 1024px) {
   .main {
